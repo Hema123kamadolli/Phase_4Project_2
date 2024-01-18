@@ -1,0 +1,14 @@
+we have to use these below commands for docker
+-docker build -t name-image -f "name of docker file path\Docker" .
+After building is finished-create tag name at docker.hub repository
+-docker tag-name docker.hub-name/image-name:latest
+push to dockur hub repository
+-docker push docker.hub-name/image-name:latest
+create container
+-docker create -i -t --name name-container docker.hub account name/image-name
+after creating container id see all catiner and inages using command
+-docker ps -a
+then run container using below command 
+- docker container start --attach -i name-conatiner
+
+after this all we see the image and container running at docker desktop
